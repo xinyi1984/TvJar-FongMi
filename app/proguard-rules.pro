@@ -21,10 +21,6 @@
 -keep class javax.xml.namespace.** { *; }
 -keep class org.xmlpull.v1.** { *; }
 
-# Demo app
--keeppackagenames com.github.catvod.MainActivity*
--keeppackagenames com.github.catvod.databinding.**
-
 # AndroidX
 -keep class androidx.core.** { *; }
 
@@ -59,6 +55,3 @@
 -keep class net.engio.mbassy.** { *; }
 -dontwarn org.ietf.jgss.**
 -dontwarn javax.**
-
-# Logger
--keep class com.orhanobut.logger.** { *; }
